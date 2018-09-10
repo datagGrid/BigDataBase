@@ -1,0 +1,290 @@
+body{
+	background: #fff;
+	width: 1366px;
+	height: 100%;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: #4381e6;
+}
+header h2{
+	display: inline;
+	font-family: "方正综艺简体";
+	font-size: 18px;
+	color: #fff;
+	
+}
+.logo{
+	margin-left: 40px;
+	line-height: 60px;
+}
+.logo img{
+	width: 36px;
+	height: 36px;
+	margin-right: 14px;
+}
+.identify{
+	margin-right: 15px;
+	line-height: 60px;
+}
+.user{
+	margin:16px 8px 16px 0;
+	width:28px;
+	height: 28px;
+	border-radius: 50%;
+	background: url(../img/identify.png) center center  no-repeat;
+	background-size: 200%;
+	/*background-size: 200%;*/
+}
+.identify h3{
+	font-family: "PingFang Bold";
+	margin-right: 10px;
+	display: inline;
+	font-size: 14px;
+	color: #fff;
+}
+.identify i{
+	color: #fff;
+}
+
+
+/*header  end*/
+
+
+/*aside   start*/
+
+aside{
+	background: #fff;
+	width: 180px;
+	height: 100%;
+	box-shadow: 0 4px 12px 2px #e7eaef;
+	
+}
+aside ul li{
+	height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 40px;
+	text-align: center;
+}
+aside ul li a{
+	font-family: "PingFang Bold";
+	font-size: 14px;
+	/*opacity: 0.4;*/
+	color: #000;
+}
+aside ul li.active{
+	background: #ecf2fc;
+	color: #6e9aea;
+	border-right:2px solid #4381e6;
+}
+aside ul li.active a{
+	color: #6e9aea;
+}
+
+
+/*aside   end*/
+.lx_box{
+	width:1189px;
+	height: 100%;
+	position: absolute;
+	left: 180px;
+	top: 60px;
+	
+}
+.lx_box1{
+	width: 100%;
+	height:661px;
+	padding: 15px 15px 0 15px;
+	background: #f1f4f9;
+	overflow: hidden;
+	/* display: flex;
+	justify-content: space-around; */
+}
+.lx_box2{
+	width: 100%;
+	height: 53px;
+	background: #fff;
+	display: flex;
+	
+}
+.lx_box2 h5{
+	margin:  auto;
+	font-size: 12px;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.4);
+}
+.lx_box1 .lx_form{
+	width: 100%;
+	height: 462px;
+	background:#fff;
+	border-radius: 10px;
+	padding: 22px 28px 0 28px;
+}
+.lx_form h3{
+	height: 12px;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	line-height: 11px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: row;
+	margin-bottom: 22px;
+}
+.lx_form h3 .lx_border{
+	width: 2px;
+	height: 12px;
+	background:linear-gradient( blue,#648aff);
+	margin-right: 9px;
+}
+.lx_form .lx_input{
+	width: 100%;
+	height: 55px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.lx_form .lx_input span{
+	font-family: "PingFang Bold";
+	text-align: left;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	line-height: 29px;
+}
+.lx_form .lx_input input{
+	width: 188px;
+	height: 32px;
+	outline:none;
+	border: 1px solid #f4f4f4;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+.lx_form .lx_input button{
+	width: 83px;
+	height: 30px;
+	border-radius: 5px;
+	outline:none;
+	border: none;
+	background: #648aff;
+	margin-left: 5px;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	font-weight: bold;
+	line-height: 30px;
+}
+.lx_form .lx_input .lx_tianjia{
+	background:#25cb77;
+	position: absolute;
+	right: 32px;
+	top:auto;
+}
+.lx_form .lx_table{
+	width: 1099px;
+	/* height: 245px; */
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+}
+dl{
+	width: 100%;
+	height: 54px;
+	border-bottom: 1px solid #f4f4f4;
+	display: flex;
+	flex-direction: row;
+}
+dl dd{
+	height: 100%;
+	width: 228px;
+	border-right: 1px solid #f4f4f4;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	line-height: 54px;
+}
+dl dd:nth-child(2){
+	width: 333px;
+}
+dl dd:nth-child(3){
+	width: 173px;
+}
+dl dd:nth-child(4){
+	width: 142px;
+}
+dl dd:nth-child(5){
+	width: 225px;
+}
+dl dd button{
+	background:#25cb77;
+	width: 83px;
+	height: 30px;
+	border-radius: 4px;
+	outline:none;
+	border: none;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:#fff;
+	font-weight: bold;
+}
+dl dd .lx_shanchu{
+	background:#f9f9f9;
+	color:rgba(0, 0, 0, 0.4);
+	margin-right: 10px;
+}
+dl dd .lx_xiugai{
+	background:#4381e6;
+}
+.lx_footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 107px;
+}
+.lx_footer button{
+	border-radius: 4px;
+	outline:none;
+	border: none;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	background: #fff;
+	border: 1px solid #f4f4f4;
+	margin-right: 5px;
+	width: 30px;
+	height: 30px;
+}
+.lx_footer button:nth-child(1){
+	width: 95px;
+	height: 28px;
+}
+.lx_footer button.ass{
+	background: #4381e6;
+	color: #fff;
+}
+.lx_footer button:nth-child(8){
+	width: 95px;
+	height: 28px;
+}
+.lx_footer button:nth-child(9){
+	width: 79px;
+	height: 28px;
+}
+.lx_footer span{
+	width: 30px;
+	height: 30px;
+	/* margin-right: 5px; */
+	line-height:43px;
+}
