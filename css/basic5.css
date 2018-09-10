@@ -1,6 +1,6 @@
 body{
 	background: #fff;
-	width: 1366px;
+	width: 100%;
 	height: 100%;
 }
 header{
@@ -85,7 +85,7 @@ aside ul li.active a{
 
 /*aside   end*/
 .lx_box{
-	width:1189px;
+	width:calc(100% - 180px);
 	height: 100%;
 	position: absolute;
 	left: 180px;
@@ -187,7 +187,7 @@ aside ul li.active a{
 	top:auto;
 }
 .lx_form .lx_table{
-	width: 1099px;
+	width: 100%;
 	/* height: 245px; */
 	border: 1px solid #f4f4f4;
 	border-radius: 4px;
@@ -201,7 +201,7 @@ dl{
 }
 dl dd{
 	height: 100%;
-	width: 228px;
+	width: 180px;
 	border-right: 1px solid #f4f4f4;
 	font-family: "PingFang Bold";
 	text-align: center;
@@ -211,16 +211,16 @@ dl dd{
 	line-height: 54px;
 }
 dl dd:nth-child(2){
-	width: 333px;
+	width: 313px;
 }
 dl dd:nth-child(3){
-	width: 173px;
+	width: 150px;
 }
 dl dd:nth-child(4){
 	width: 142px;
 }
 dl dd:nth-child(5){
-	width: 225px;
+	width: 215px;
 }
 dl dd button{
 	background:#25cb77;
@@ -242,6 +242,7 @@ dl dd .lx_shanchu{
 }
 dl dd .lx_xiugai{
 	background:#4381e6;
+	cursor: pointer;
 }
 .lx_footer{
 	display: flex;
@@ -287,4 +288,121 @@ dl dd .lx_xiugai{
 	height: 30px;
 	/* margin-right: 5px; */
 	line-height:43px;
+}
+.lx_section{
+	width: 392px;
+	height: 432px;
+	background: #fff;
+	border-radius: 4px;
+	position: absolute;
+	top: 182px;
+	left:487px;
+	box-shadow: 10px 10px 0 1000px rgba(0, 0, 0, 0.8);
+	display: none;
+
+}
+.lx_section h4{
+	height: 54px;
+	width: 100%;
+	text-align: center;
+	line-height: 54px;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	background: #fff;
+	border-bottom: 1px solid #f4f4f4;
+	position: relative;
+}
+.lx_section img{
+	position: absolute;
+	top: 24px;
+	right:18px;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+}
+.lx_section .lx_name{
+	margin-left:28px;
+	margin-top: 16px;
+	/* position: relative; */
+}
+.lx_section .lx_name.name1{
+	position: relative;
+}
+.lx_section .lx_name h5{
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	display: inline-block;
+	letter-spacing: 23px;
+	width: 75px;
+	position: relative;
+}
+.lx_section .lx_name input{
+	width: 248px;
+	height: 30px;
+	outline: none;
+	border: none;
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	/* margin-left: 10px; */
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.3);
+	font-weight: 500;
+	padding-left: 10px;
+}
+.lx_section .lx_name img{
+	position: absolute;
+	top: 10px;
+	right: 45px;
+	width: 7px;
+	height:8px;
+}
+.lx_section button{
+	margin-left: 107px;;
+	margin-top: 15px;
+	outline:none;
+	border: none;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	border-radius: 4px;
+	background:#4381e6;
+	width: 83px;
+	height: 30px;
+}
+.lx_section .lx_name textarea{
+	width: 248px;
+	height: 65px;
+	outline: none;
+	border: none;
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	margin-left: 78px;
+}
+.lx_section .lx_name .jieshaoziti{
+	position: absolute;
+	top:160px;
+	left:28px;
+}
+.lx_section .lx_name .lx_fenlei{
+	letter-spacing: 1px;
+}
+button.lx_hel{
+	width: 325px;
+	height: 25px;
+	outline:none;
+	border: none;
+	font-family: "PingFang Bold";
+	text-align: center;
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.4);
+	font-weight: bold;
+	letter-spacing: 10px;
+	border-radius: 4px;
+	margin-left: 30px;;
+	margin-top: 22px;
+	background: #f1f1f1;
 }
