@@ -2,6 +2,10 @@ body{
 	background: #0a296a url(../img/矩形1.png) no-repeat;
 	
 }
+input::-webkit-input-placeholder{
+	color: #4381e6;
+	opacity: 0.4;
+}
 .pic{
 	position: absolute;
 	right: 0;
@@ -85,6 +89,9 @@ label{
 	margin-top: 16px;
 	margin-left: 16px;
 }
+.right,.error{
+	display:none;
+}
 .error_info{
 	background: #fff;
 	width: 152px;
@@ -98,6 +105,7 @@ label{
 	right: 10px;
 	top: 34px;
 	color: #e83e3e;
+	display: none;
 }
 .formgroup .username span{
 	position: absolute;

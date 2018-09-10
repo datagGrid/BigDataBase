@@ -6,8 +6,14 @@
 		<link rel="stylesheet" href="css/basic.css" />
 		<link rel="stylesheet" type="text/css" href="css/basic2.css"/>
 		<link rel="stylesheet" href="css/index3.css" />
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
+		
+		<div class="shade">
+			
+		</div>
+		
 		<div class="pic">
 			<img src="img/矩形1拷贝.png"/>
 		</div>
@@ -35,15 +41,15 @@
 						<div class="error_info">
 							请输入正确的账号
 						</div>
-						<span>X</span>
+						<span class="error">X</span>
 						<img src="img/图层2.png" alt="" />
-						<input type="text" placeholder="12345678" id="user"/>
+						<input type="text" placeholder="请输入用户名" id="user" maxlength="11"/>
 					</label>
 					
 					<label for="pwd" class="pwd">
-						<span>√</span>
+						<span class="right">√</span>
 						<img src="img/首页1_03.png" alt="" />
-						<input type="password" placeholder="" id="pwd"/>
+						<input type="password" placeholder="请输入密码" id="pwd" maxlength="6"/>
 					</label>
 					
 					<input type="submit" value="登录" class="submit"/>
@@ -51,11 +57,22 @@
 					
 				</form>
 				<div class="back">
-					<a href="">忘记密码?</a>
+					<a href="javascript:;">忘记密码?</a>
 				</div>
 				
 			</div>
 		</main>
-		
+		<div id="center_box">
+			<div class="center_box_container">
+				<div class="close">
+					<a href="javascript:;">X</a>
+				</div>
+				<div class="waring">
+				!
+				</div>
+				<span>您复制的密码已发送到您的邮箱</span>
+			</div>
+			
+		</div>
 	</body>
 </html>

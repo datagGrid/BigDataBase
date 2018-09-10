@@ -10,6 +10,10 @@ body{
 	right: 0;
 	top: 0;
 }
+input::-webkit-input-placeholder{
+	color: #4381e6;
+	opacity: 0.4;
+}
 main{
 	position: relative;
 	top: 130px;
@@ -19,7 +23,7 @@ main{
 	width: 400px;
 	height: 510px;
 	background:url(../img/400067713.png) center center;
-	background-size: cover;
+	background-size: 969px 519px;
 	
 }
 .WYF_header_info{

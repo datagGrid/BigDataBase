@@ -16,7 +16,7 @@ main{
 	width: 400px;
 	height: 510px;
 	background:url(../img/400067713.png) center center;
-	background-size: cover;
+	background-size: 969px 519px;
 	
 }
 .WYF_header_info{
@@ -104,8 +104,13 @@ label{
 	top:16px;
 	left: 0;
 }
+
 .formgroup label.pwd{
 	margin-bottom: 40px;
+}
+input::-webkit-input-placeholder{
+	color: #4381e6;
+	opacity: 0.4;
 }
 
 .formgroup .register{
