@@ -1,0 +1,314 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "PingFang Bold";
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.yhf_right{
+    width: 100%;
+    padding:15px 15px 0 15px;
+    /*margin-bottom: 200px;*/
+}
+.yhf_node{
+    width: 100%;
+    height:60px ;
+    /*margin:15px 15px 0 15px;*/
+    background: #fff;
+    border-radius: 4px;
+    font-family: "PingFang Bold";
+    font-size: 14px;
+    display: flex;
+    line-height: 60px;
+    padding:0 30px;
+    position: relative;
+}
+.yhf_node_num{
+    display: flex;
+    margin-right:116px;
+}
+.yhf_node_num span{
+    font-size: 14px;
+    color: #a09f9f;
+}
+
+.yhf_node_num h2{
+    font-size: 20px;
+    color: #6e9aea;
+    padding-right: 5px;
+}
+.yhf_node_passw{
+    display: flex;
+    align-items: center;
+}
+.yhf_node_passw .yhf_passw{
+    width: 153px;
+    height: 28px;
+    background:rgba(89,89,89,0.05);
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 28px;
+    padding:0 10px;
+}
+.yhf_node button{
+    width: 92px;
+    height: 29px;
+    background: #4381e6;
+    color: #fff;
+    text-align: center;
+    line-height: 29px;
+    border:none;
+    border-radius: 4px;
+    position: absolute;
+    top:0;
+    bottom:0;
+    margin:auto 0;
+    right:30px;
+}
+.yhf_node button:hover{
+    box-shadow: 0 5px 9px 4px rgba(100,158,253,0.1);
+}
+.yhf_slave{
+    width: 100%;
+    height: 128px;
+    background: #fff;
+    margin:15px 0 0 0;
+    border-radius: 4px;
+    padding:20px 0 30px 30px ;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.yhf_slave .slave_mas{
+    /*width: 120px;*/
+    height: 16px;
+    color: #000;
+    font-size: 14px;
+    font-family: "PingFang Bold";
+    padding:0 5px;
+    border-left:2px #6787ff solid;
+    line-height: 16px;
+}
+.yhf_slave .slave_bot{
+    display: flex;
+}
+.yhf_slave .slave_inside{
+    display: flex;
+    align-items: center;
+    margin-right: 46px;
+}
+.yhf_slave .slave_inside .round1{
+    width: 4px;
+    height: 4px;
+    background: #ff6c84;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_slave .slave_inside .round2{
+    width: 4px;
+    height: 4px;
+    background: #3fd173;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_slave .slave_inside .round3{
+    width: 4px;
+    height: 4px;
+    background: #ffb033;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_slave .slave_inside .round4{
+    width: 4px;
+    height: 4px;
+    background: #ff5b75;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.yhf_slave .slave_inside span{
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}
+.yhf_slave .slave_inside .slave_num1{
+    height: 26px;
+    background: rgba(67,129,230,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #4381e6;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_slave .slave_inside .slave_num2{
+    height: 26px;
+    background: rgba(71,209,110,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #47d16e;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_slave .slave_inside .slave_num3{
+    height: 26px;
+    background: rgba(252,166,28,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fca61c;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_slave .slave_inside .slave_num4{
+    height: 26px;
+    background: rgba(250,112,136,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fa7088;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.yhf_drone{
+    margin-top: 15px;
+}
+
+.yhf_drone .drone{
+    width: 378px;
+    height: 213px;
+    background: #fff;
+    float:left;
+    margin-right: 13px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+    padding:20px 0 25px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.yhf_drone .drone:nth-child(3){
+    margin-right: 0;
+}
+
+.yhf_drone .drone .drone_top{
+    height: 16px;
+    color: rgba(0,0,0,0.6);
+    font-size: 14px;
+    font-family: "PingFang Bold";
+    padding:0 5px;
+    border-left:2px #6787ff solid;
+    line-height: 16px;
+}
+.yhf_drone .drone .drone_inside{
+    display: flex;
+    align-items: center;
+    margin-right: 46px;
+    margin-bottom: 5px;
+}
+.yhf_drone .drone .drone_inside .round1{
+     width: 4px;
+     height: 4px;
+     background: #ff6c84;
+     border-radius: 50%;
+     margin-right: 10px;
+ }
+
+.yhf_drone .drone .drone_inside .round4{
+    width: 4px;
+    height: 4px;
+    background: #ff5b75;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_drone .drone .drone_inside .round2{
+    width: 4px;
+    height: 4px;
+    background: #3fd173;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_drone .drone .drone_inside .round3{
+    width: 4px;
+    height: 4px;
+    background: #ffb033;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.yhf_drone .drone .drone_inside span{
+    width: 80px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+}
+.yhf_drone .drone .drone_inside .drone_num1{
+    height: 26px;
+    background: rgba(67,129,230,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #4381e6;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_drone .drone .drone_inside .drone_num2{
+    height: 26px;
+    background: rgba(71,209,110,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #47d16e;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_drone .drone .drone_inside .drone_num3{
+    height: 26px;
+    background: rgba(252,166,28,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fca61c;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.yhf_drone .drone .drone_inside .drone_num4{
+    height: 26px;
+    background: rgba(250,112,136,0.1);
+    padding:0 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fa7088;
+    line-height: 26px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.bottom{
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #c5c5c5;
+    font-family: "PingFang Bold";
+
+}
