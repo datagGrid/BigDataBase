@@ -1,0 +1,463 @@
+body{
+	background: #f1f4f9;
+	position: relative;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: #4381e6;
+}
+header h2{
+	display: inline;
+	font-family: "方正综艺简体";
+	font-size: 18px;
+	color: #fff;
+	
+}
+.logo{
+	margin-left: 40px;
+	line-height: 60px;
+}
+.logo img{
+	width: 36px;
+	height: 36px;
+	margin-right: 14px;
+}
+.identify{
+	margin-right: 15px;
+	line-height: 60px;
+}
+.user{
+	margin:16px 8px 16px 0;
+	width:28px;
+	height: 28px;
+	border-radius: 50%;
+	background: url(../img/identify.png) center center  no-repeat;
+	background-size: 200%;
+	/*background-size: 200%;*/
+}
+.identify h3{
+	font-family: "PingFang Bold";
+	margin-right: 10px;
+	display: inline;
+	font-size: 14px;
+	color: #fff;
+}
+.identify i{
+	color: #fff;
+}
+
+
+/*header  end*/
+
+
+/*aside   start*/
+
+aside{
+	background: #fff;
+	width: 180px;
+	height: 660px;
+	box-shadow: 0 4px 12px 2px #e7eaef;
+}
+aside ul li{
+	height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 40px;
+	text-align: center;
+}
+aside ul li a{
+	font-family: "PingFang Bold";
+	font-size: 14px;
+	/*opacity: 0.4;*/
+	color: #000;
+}
+aside ul li.active{
+	background: #ecf2fc;
+	color: #6e9aea;
+	border-right:2px solid #4381e6;
+}
+aside ul li.active a{
+	color: #6e9aea;
+}
+
+
+/*aside   end*/
+
+/*main开始*/
+main .WHX_box{
+	width:calc(100% - 195px - 15px);
+	height: 528px;
+	border-radius: 4px;
+	background:#fff;
+	position:absolute;
+	left:195px;
+	top:75px;
+	padding-left:38px;
+	padding-top:20px;
+}
+main .WHX_box .WHX_title p{
+	font-family: "PingFang Bold";
+	font-size: 14px;
+	color:rgba(0,0,0,0.6);
+	border-lwft: 2px solid linear-gradient(to bottom,#6687FF,#30C1FB);
+	paddong:0;
+	margin: 0;
+	position: relative;
+}
+main .WHX_box .WHX_title p:before{
+	content: "";
+	display: block;
+	width:2px;
+	height:13px;
+	background: linear-gradient(to bottom,#6687FF,#30C1FB);
+	position:absolute;
+	top:4px;
+	left:-8px;
+}
+main .WHX_box .WHX_time{
+	display: flex;
+	flex-direction: row;
+	margin-top:28px;
+}
+main .WHX_box .WHX_word{
+	font-family: "PingFang Bold";
+	font-size: 14px;
+	color:rgba(0,0,0,0.6);
+}
+main .WHX_box .WHX_day{
+	width:134px;
+	height:134px;
+	border:1px solid #f4f4f4;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+}
+main .WHX_box .WHX_time .WHX_day.first .WHX_one p{
+	color:#314dfc;
+}
+main .WHX_box .WHX_time .WHX_day.first span{
+	color:#314dfc;
+}
+main .WHX_box .WHX_time .WHX_day.second .WHX_one p{
+	color:#2bacfe;
+}
+main .WHX_box .WHX_time .WHX_day.second span{
+	color:#2bacfe;
+}
+main .WHX_box .WHX_time .WHX_day.third .WHX_one p{
+	color:#26dbb7;
+}
+main .WHX_box .WHX_time .WHX_day.third span{
+	color:#26dbb7;
+}
+main .WHX_box .WHX_day .WHX_one{
+	display: flex;
+	justify-content: center;
+	padding:0;
+	margin:0;
+}
+main .WHX_box .WHX_day .WHX_one span{
+	font-size: 56.4px;
+	color:#25cb77;
+	font-family: "PingFang Bold";
+}
+main .WHX_box .WHX_day .WHX_one p{
+	font-size: 14px;
+	color:#25cb77;
+	font-family: "PingFang Bold";
+	/*margin-top:18px;*/
+}
+main .WHX_box .WHX_day .WHX_num{
+	display: flex;
+	justify-content: center;
+}
+main .WHX_box .WHX_day .WHX_num p{
+	font-size: 14px;
+	color:rgba(0,0,0,0.6);
+	font-family: "PingFang Bold";
+}
+main .WHX_box .WHX_day .WHX_num span{
+	font-size: 16px;
+	color:#25cb77;
+	font-family: "PingFang Bold";
+}
+main .WHX_box .WHX_date{
+	display: flex;
+	flex-direction: column;
+	margin-top:28px;
+}
+main .WHX_box .WHX_date .WHX_one{
+	display: flex;
+	flex-direction: row;
+}
+
+main .WHX_box .WHX_date .choice{
+	color:rgba(0,0,0,0.6);
+	width: 134px;
+	height:29px;
+	border-radius: 4px;
+	text-align: center;
+	border:1px solid #f4f4f4;
+	margin:-6px 54px 0 20px;
+
+}
+main .WHX_box .WHX_date .WHX_two{
+	font-size: 14px;
+	color:rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+}
+main .WHX_box input{
+	width:15px;
+	height:15px;
+	outline: none;
+	color:#fff;
+	background-color: #25cb77;
+	margin-left: 81px;
+	margin-top:11px;
+}
+main .WHX_box .WHX_person{
+	display: flex;
+	flex-direction: row;
+	margin-top:28px;
+}
+main .WHX_box .WHX_person .WHX_number{
+	width:76px;
+	height: 29px;
+	border-radius: 4px;
+	text-align: center;
+	border:1px solid #f4f4f4;
+	line-height:27px;
+	font-size: 14px;
+	color:rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+	margin-left: 20px;
+	margin-top:-6px;
+}
+main .WHX_box .WHX_person span{
+	font-size: 14px;
+	color:rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+	margin-left: 34px;
+}
+main .WHX_box .WHX_priece{
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+main .WHX_box .WHX_priece .WHX_one{
+	display: flex;
+	flex-direction: row;
+}
+main .WHX_box .WHX_priece .WHX_one .WHX_money{
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+	margin-left: 20px;
+	margin-top:-22px;
+}
+main .WHX_box .WHX_priece .WHX_one .WHX_money span{
+	font-size: 35px;
+	color: #4381e6;
+	font-family: "PingFang Bold";
+}
+main .WHX_box .WHX_priece .WHX_one .WHX_pay p{
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+	margin-left: 35px;
+}
+main .WHX_box .WHX_priece .WHX_one .WHX_pay a{
+	font-size: 14px;
+	color:#4381e6;
+	font-family: "PingFang Bold";
+}
+main .WHX_box .WHX_priece .WHX_two{
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+
+}
+main .WHX_box .WHX_next{
+	width:111px;
+	height:29px;
+	background: #4381e6;
+	color:#fff;
+	text-align: center;
+	line-height: 29px;
+	border-radius: 4px;
+	margin-top: 46px;
+	margin-left: 80px;
+
+}
+select {
+	border: solid 1px #000;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: url("../img/whx_down.png") no-repeat scroll right center transparent;
+	padding-right: 14px;
+	padding-left:40px;
+	background-position: 100px 12px ;
+	text-align: center;
+}
+/*main结束*/
+
+/*footer开始*/
+footer{
+	width:100%;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+}
+/*footer结束*/
+
+/*bill开始*/
+.WHX_bill{
+	width:580px;
+	height:479px;
+	background:#fff;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	border-radius: 4px;
+	box-shadow: 0 0 10px 1000px rgba(0,0,0,0.8);
+}
+.WHX_bill .WHX_title{
+	height:40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding:0 18px;
+	border-bottom: 1px solid #f4f4f4;
+}
+.WHX_bill .WHX_title p{
+	 font-size: 14px;
+	 color: rgba(0,0,0,0.8);
+	 font-family: "PingFang Bold";
+	 line-height:40px;
+ }
+.WHX_bill .WHX_title span{
+	font-size: 14px;
+	color: rgba(89,97,109,0.4);
+	font-family: "PingFang Bold";
+	line-height:40px;
+}
+.WHX_bill ul{
+	padding-left:48px;
+	padding-top:32px;
+	position: relative;
+}
+.WHX_bill ul li{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 26px;
+}
+.WHX_bill ul li .words{
+	font-size: 14px;
+	color: rgba(0,0,0,0.6);
+	font-family: "PingFang Bold";
+}
+
+.WHX_bill ul li span{
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+	font-family: "PingFang Bold";
+	margin-right:114px;
+}
+.WHX_bill ul li .p{
+	margin-right:183px;
+}
+.WHX_bill ul li .WHX_a1{
+	width:79px;
+	height:29px;
+	border: 1px solid #f4f4f4;
+	text-align: center;
+	line-height: 27px;
+	color:#314dfc;
+	border-radius: 4px;
+	margin-right: 14px;
+	margin-top:-5px;
+}
+.WHX_bill ul li .WHX_a2{
+	width:79px;
+	height:29px;
+	border: 1px solid #f4f4f4;
+	text-align: center;
+	line-height: 27px;
+	color:#2bacfe;
+	border-radius: 4px;
+	margin-right: 14px;
+	margin-top:-5px;
+}
+.WHX_bill ul li .WHX_a3{
+	width:109px;
+	height:29px;
+	border: 1px solid #f4f4f4;
+	text-align: center;
+	line-height: 27px;
+	color:#26dbb7;
+	border-radius: 4px;
+	margin-right: 14px;
+	margin-top:-5px;
+}
+.WHX_bill ul li .WHX_a4{
+	width:109px;
+	height:29px;
+	border: 1px solid #f4f4f4;
+	text-align: center;
+	line-height: 27px;
+	color:#25cb77;
+	border-radius: 4px;
+	margin-right: 14px;
+	margin-top:-5px;
+}
+.WHX_bill ul li input{
+	height:29px;
+	border:1px solid #f4f4f4;
+	border-radius: 4px;
+	margin-top: -5px;
+	position: absolute;
+	left:154px;
+}
+.WHX_bill ul li .WHX_i1{
+	width:421px;
+}
+.WHX_bill ul li .WHX_i2{
+	width:388px;
+}
+.WHX_bill ul li .WHX_i3{
+	width:165px;
+}
+.WHX_bill ul li .WHX_i4{
+	width:176px;
+}
+.WHX_bill ul li .WHX_i5{
+	width:176px;
+}
+.WHX_bill .WHX_btn{
+	position: relative;
+	margin-bottom: 20px;
+}
+.WHX_bill .WHX_btn input{
+	width:203px;
+	height:29px;
+	border-radius: 4px;
+	background: #4381e6;
+	color:#fff;
+	font-size: 14px;
+	font-family: "PingFang Bold";
+	position:absolute;
+	left: 0;
+	right: 0;
+	margin:0 auto;
+
+}
+/*bill结束*/
