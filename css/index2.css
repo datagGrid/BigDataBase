@@ -1,10 +1,7 @@
 body{
 	background: #0a296a url(../img/矩形1.png) no-repeat;
+	
 }
-/*input::-webkit-input-placeholder{
-　　color:#4381e6;
-	opacity: 0.4;
-}　*/
 .pic{
 	position: absolute;
 	right: 0;
@@ -90,11 +87,10 @@ label{
 }
 
 .formgroup{
-	margin:10px auto 0 ;
+	margin:30px auto 0 ;
 	width: 260px;
 	height: auto;
 }
-
 .formgroup label{
 	padding-top: 16px;
 	position: relative;
@@ -108,24 +104,16 @@ label{
 	top:16px;
 	left: 0;
 }
-.formgroup label.email img{
-	top: 20px;
+.formgroup label.pwd{
+	margin-bottom: 40px;
 }
-.formgroup label.yzm{
-	margin-bottom: 34px;
-	width: 136px;
-}
-.formgroup label.yzm h3{
-	position: absolute;
+
+.formgroup .register{
+	background:#fff;
+	box-shadow: none;
+	border: 1px solid #b4cdf5;
 	color: #7ba7ed;
-	right: -122px;
-	top: 10px;
-	height: 30px;
-	width: 100px;
-	text-align: center;
-	line-height: 30px;
-	border: 1px solid #b4cdf5 ;
-	border-radius: 4px;
+	margin-bottom: 78px;
 }
 .submit{
 	cursor: pointer;
@@ -135,7 +123,7 @@ label{
 	background: linear-gradient(to right,#4285e7,#32bdfa);
 	color: #fff;
 	box-shadow: 1px 3px 12px 1px #b2e6fd;
-	margin-bottom: 34px;
+	margin-bottom: 16px;
 }
 .back{
 	text-align: center;
