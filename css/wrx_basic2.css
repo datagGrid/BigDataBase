@@ -1,0 +1,244 @@
+body{
+	background: #f1f4f9;
+}
+i{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 60px;
+	background: #4381e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index:999;
+}
+header h2{
+	display: inline;
+	font-family: "方正综艺简体";
+	font-size: 18px;
+	color: #fff;
+	
+}
+.logo{
+	margin-left: 40px;
+	line-height: 60px;
+}
+.logo img{
+	width: 36px;
+	height: 36px;
+	margin-right: 14px;
+}
+.identify{
+	margin-right: 15px;
+	line-height: 60px;
+}
+.user{
+	margin:16px 8px 16px 0;
+	width:28px;
+	height: 28px;
+	border-radius: 50%;
+	background: url(../img/identify.png) center center  no-repeat;
+	background-size: 200%;
+	/*background-size: 200%;*/
+}
+.identify h3{
+	font-family: "PingFang Bold";
+	margin-right: 10px;
+	display: inline;
+	font-size: 14px;
+	color: #fff;
+}
+.identify i{
+	color: #fff;
+}
+
+
+/*header  end*/
+
+
+/*aside   start*/
+
+aside{
+	background: #fff;
+	width: 180px;
+	height: 100%;
+	box-shadow: 0 4px 12px 2px #e7eaef;
+	position: fixed;
+	top: 60px;
+	left: 0;
+}
+aside ul li{
+	height: 40px;
+	border-bottom: 1px solid #f4f4f4;
+	line-height: 40px;
+	text-align: center;
+}
+aside ul li a{
+	font-family: "PingFang Bold";
+	font-size: 14px;
+	/*opacity: 0.4;*/
+	color: #000;
+}
+aside ul li.active{
+	background: #ecf2fc;
+	color: #6e9aea;
+	border-right:2px solid #4381e6;
+}
+aside ul li.active a{
+	color: #6e9aea;
+}
+main{
+	width: calc(100% - 180px);
+	position: absolute;
+	top: 60px;
+	left: 180px;
+	padding: 15px;
+}
+main .bottom{
+	display: flex;
+}
+main .top{
+	width: 100%;
+	height: 60px;
+	border-radius:4px;
+	background: #ffffff;
+	padding-left: 32px;
+	padding-top: 25px;
+	/*line-height: 60px;*/
+	display: flex;
+}
+main .top .shu{
+	width: 2px;
+	height: 11px;
+}
+main .top .shu img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+main .top .title{
+	padding-left: 8px;
+	height: 11px;
+	line-height: 11px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+}
+main .left{
+	width: 115px;
+	height: 833px;
+	background: #ffffff;
+	float: left;
+	margin-top: 15px;
+	border-radius:4px;
+}
+main .left ul li{
+	width: 100%;
+	height: 39.5px;
+	border-bottom: 1px solid #ececec;
+	text-align: center;
+	line-height: 39.5px;
+	background: #ffffff;
+	color: rgba(0,0,0,0.5);
+	cursor: pointer;
+}
+main .left ul li:nth-child(21){
+	border:none;
+}
+main .right{
+	width: calc(100% - 145px);;
+	float: left;
+	margin:15px;
+	padding: 34px 33px 0;
+}
+main .right h2{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 42px;
+	font-size: 18px;
+	color: #000;
+	font-weight: normal;
+}
+main .right h3{
+	display: flex;
+	margin-bottom: 23px;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+main .right h3 .black{
+	width: 8px;
+	height: 8px;
+	background: black;
+	margin-top: 6.5px;
+}
+main .right h3 span{
+	margin-left: 16px;
+}
+main .right span p{
+	margin-bottom: 8px;
+	font-size: 14px;
+	color: rgba(0,0,0,0.4);
+}
+main .right .big{
+	display: flex;
+	padding-left: 23px;
+}
+main .right .big p{
+	margin-left: 11px;
+}
+main .right .big .dot{
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #000;
+	margin-top: 7px;
+}
+main .right span .down{
+	margin-bottom: 23px;
+}
+main .right span .list{
+	margin-left: 39px;
+	margin-bottom: 30px;
+}
+main .right span .list:nth-child(5){
+	margin-bottom: 112px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #ffffff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	color: rgba(0,0,0,0.4);
+}
+main .left ul li:nth-child(6){
+	position: relative;
+}
+main .left ul li:nth-child(6) .tanchu{
+	width: 223px;
+	height: 120px;
+	background: #fff;
+	position: absolute;
+	margin-left: 5px;
+	border-radius: 5px;
+	top: 0;
+	left: 115px;
+	overflow: hidden;
+	color: rgba(0,0,0,0.4);
+}
+main .left ul li:nth-child(6) .tanchu .more{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #ececec;
+}
+main .left ul li:nth-child(6) .tanchu .more.hot{
+	color: #4381e6;
+}
+main .left ul li.hot{
+	color: #4381e6;
+}
+/*aside   end*/
