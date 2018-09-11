@@ -156,8 +156,8 @@ main .right h2{
 	text-align: center;
 	margin-bottom: 42px;
 	font-size: 18px;
-	color: #000;
-	font-weight: normal;
+	color: rgba(0,0,0,0.5);
+	font-weight: bold;
 }
 main .right h3{
 	display: flex;
@@ -169,11 +169,14 @@ main .right h3{
 main .right h3 .black{
 	width: 8px;
 	height: 8px;
-	background: black;
+	background: rgba(0,0,0,0.4);
 	margin-top: 6.5px;
 }
 main .right h3 span{
 	margin-left: 16px;
+	color: rgba(0,0,0,0.5);
+	font-weight: bold;
+
 }
 main .right span p{
 	margin-bottom: 8px;
@@ -191,7 +194,7 @@ main .right .big .dot{
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	background: #000;
+	background: rgba(0,0,0,0.4);
 	margin-top: 7px;
 }
 main .right span .down{
