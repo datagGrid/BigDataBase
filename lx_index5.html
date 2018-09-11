@@ -35,12 +35,12 @@
 		<aside>
 			
 			<ul>
-				<li><a href="">集群管理</a></li>
-				<li class="active"><a href="">学习资料</a></li>
-				<li><a href="">分类管理</a></li>
-				<li><a href="">账户管理</a></li>
-				<li><a href="">资源管理</a></li>
-				<li><a href="">购买记录</a></li>
+				<li><a href="cluster.html">集群管理</a></li>
+				<li class="active"><a href="lx_index5.html">学习资料</a></li>
+				<li><a href="sort management.html">分类管理</a></li>
+				<li><a href="wrx.html">账户管理</a></li>
+				<li><a href="资源管理.html">资源管理</a></li>
+				<li><a href="订单管理.html">购买记录</a></li>
 			</ul>
 
 			
@@ -198,4 +198,15 @@
 		lx_x1.onclick=function(){
 			alert1.style.display="none";
 		}
+		let lx_xy=document.querySelectorAll(".lx_footer button");
+		console.log(lx_xy);
+		lx_xy.forEach(function(e){
+			e.onclick=function(){
+				lx_xy.forEach(function(element){
+					element.classList.remove("ass");
+
+				})
+				e.classList.add("ass");
+			}
+		})
 	</script>

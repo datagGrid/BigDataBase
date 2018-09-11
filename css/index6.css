@@ -90,7 +90,7 @@ aside ul li.active a{
 
 /*aside   end*/
 .left{
-	width: 1156px;
+	width: calc(100% - 210px);
 	height: 110px;
 	background: white;
 	border-radius: 4px;
@@ -98,6 +98,7 @@ aside ul li.active a{
 	/*float: left;*/
 	margin-top: 75px;
 	padding-top: 25px;
+	margin-right: 15px;
 
 }
 .left .shu{
@@ -181,7 +182,7 @@ aside ul li.active a{
 	margin-left: 621px;
 }
 .bottom{
-	width: 1156px;
+	width: calc(100% - 210px);
 	height: 383px;
 	background: white;
 	border-radius: 4px;
@@ -212,7 +213,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: white;
-	margin-left: 958px;
+	margin-left: 1130px;
 	margin-top: -17px;
 }
 .bottom .shua{
@@ -224,11 +225,11 @@ aside ul li.active a{
 	line-height: 29px;
 	color: white;
 	margin-top: -29px;
-	margin-left: 1045px;
+	margin-left: 1220px;
 	background: #25cb77;
 }
 .bottom ul{
-	width: 1100px;
+	width: 1270px;
 	height: 181px;
 	background: white;
 	margin-left: 30px;
@@ -267,7 +268,7 @@ aside ul li.active a{
 	margin: auto;
 }
 .bottom ul li .box2{
-	width: 108px;
+	width: 10.7%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -277,7 +278,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box3{
-	width: 97px;
+	width: 9.6%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -287,7 +288,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box4{
-	width: 97px;
+	width: 9.6%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -297,7 +298,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box5{
-	width: 78px;
+	width: 7.7%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -307,7 +308,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box6{
-	width: 191px;
+	width: 19%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -317,7 +318,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box7	{
-	width: 158px;
+	width: 15.7%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -327,7 +328,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box8{
-	width: 157px;
+	width: 15.7%;
 	height: 100%;
 	/*background: red;*/
 	border-right: 1px solid #b3b3b3;
@@ -337,7 +338,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .bottom ul li .box9{
-	width: 168px;
+	width: 12%;
 	height: 100%;
 	/*background: red;*/
 	/*border-right: 1px solid #b3b3b3;*/
@@ -361,7 +362,7 @@ aside ul li.active a{
 	width: 97px;
 	height: 29px;
 	/*background: red;*/
-	margin-left: 322px;
+	margin-left: 422px;
 	margin-top: 53px;
 	border-radius: 4px;
 	border: 1px solid #b3b3b3;
@@ -376,7 +377,7 @@ aside ul li.active a{
 	background: #4381e6;
 	border-radius: 4px;
 	margin-top: -30px;
-	margin-left: 426px;
+	margin-left: 526px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -388,7 +389,7 @@ aside ul li.active a{
 	border: 1px solid #b3b3b3;
 	border-radius: 4px;
 	margin-top: -29px;
-	margin-left: 467px;
+	margin-left: 567px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -400,7 +401,7 @@ aside ul li.active a{
 	border: 1px solid #b3b3b3;
 	border-radius: 4px;
 	margin-top: -29px;
-	margin-left: 508px;
+	margin-left: 608px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -412,7 +413,7 @@ aside ul li.active a{
 	/*background: #4381e6;*/
 	border-radius: 4px;
 	margin-top: -23px;
-	margin-left: 545px;
+	margin-left: 645px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -424,7 +425,7 @@ aside ul li.active a{
 	border: 1px solid #b3b3b3;
 	border-radius: 4px;
 	margin-top: -35px;
-	margin-left: 578px;
+	margin-left: 678px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -436,7 +437,7 @@ aside ul li.active a{
 	border: 1px solid #b3b3b3;
 	border-radius: 4px;
 	margin-top: -29px;
-	margin-left: 617px;
+	margin-left: 717px;
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
@@ -446,7 +447,7 @@ aside ul li.active a{
 	width: 97px;
 	height: 29px;
 	/*background: red;*/
-	margin-left: 656px;
+	margin-left: 756px;
 	margin-top: -30px;
 	border-radius: 4px;
 	border: 1px solid #b3b3b3;
@@ -459,7 +460,7 @@ aside ul li.active a{
 	width: 81px;
 	height: 29px;
 	/*background: red;*/
-	margin-left: 762px;
+	margin-left: 862px;
 	margin-top: -30px;
 	border-radius: 4px;
 	border: 1px solid #b3b3b3;
@@ -469,7 +470,7 @@ aside ul li.active a{
 	color: #666666;
 }
 .last{
-	width: 1350px;
+	width: calc(100% - 195px);
 	height: 50px;
 	background: white;
 	margin-top: 130px;
@@ -478,4 +479,5 @@ aside ul li.active a{
 	line-height: 50px;
 	color: #666666;
 	/*border-left: none;*/
+	margin-left: 180px;
 }
