@@ -169,18 +169,6 @@ aside ul li.active a{
 	right: 5px;
 	top: 12px;
 }
-.hcl_box .hcl_fuwu .hcl_pp{
-    width:112px;
-	height: 33px;
-	background: #4381e6;
-	border-radius: 4px;
-	text-align:center;
-	line-height: 33px;
-	color: white;
-	position: absolute;
-	top: 15px;
-	right: 30px;
-}
 .hcl_boxtw{
 	width: 1157px;
 	height: 340px;
@@ -469,15 +457,4 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
-}
-.hcl_foot1{
-	width: 1366px;
-	height: 52px;
-	background: white;
-	text-align: center;
-	line-height: 52px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	z-index: 999;
 }
