@@ -1,4 +1,4 @@
-body{
+﻿body{
 	background: #fff;
 	width: 100%;
 	height: 1157px;
@@ -344,9 +344,7 @@ button{
 	top: 15px;
 	left: 195px;
 }
-.hcl_boxs .hcl_boxes img:nth-child(2){
-	margin-left: 5px;
-}
+
 .hcl_boxs .hcl_boxes img{
 	width: 49.7%;
 	border-radius: 4px;
@@ -356,7 +354,7 @@ button{
 	height: 340px;
 	position: absolute;
 	left: 195px;
-	top: 435px;
+	top: 338px;
 	background: white;
 	border-radius: 4px;
 }
@@ -474,7 +472,6 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
-<<<<<<< HEAD
 	overflow: hidden;
 }
 .hcl_boxs .hcl_long .hcl_table dl .ia p{
@@ -526,6 +523,4 @@ button{
 	background: #4381e6;
 	color: #fff;
 	border: 1px solid #4381e6;
-=======
->>>>>>> 5d3a2b877c8a09e1293bfaa824acbdad5d47871b
 }
