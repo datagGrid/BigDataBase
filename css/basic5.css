@@ -202,7 +202,7 @@ dl{
 }
 dl dd{
 	height: 100%;
-	width: 18%;
+	width: 180px;
 	border-right: 1px solid #f4f4f4;
 	/* font-family: "PingFang Bold"; */
 	text-align: center;
@@ -212,16 +212,16 @@ dl dd{
 	line-height: 64.67px;
 }
 dl dd:nth-child(2){
-	width: 31%;
+	width: 313px;
 }
 dl dd:nth-child(3){
-	width: 15%;
+	width: 150px;
 }
 dl dd:nth-child(4){
-	width: 14%;
+	width: 142px;
 }
 dl dd:nth-child(5){
-	width: 22%;
+	width: 215px;
 }
 dl dd button{
 	background:#25cb77;
