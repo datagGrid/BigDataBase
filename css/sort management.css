@@ -70,7 +70,7 @@ aside ul li a{
 	font-family: "PingFang Bold";
 	font-size: 14px;
 	/*opacity: 0.4;*/
-	color: rgba(0,0,0,0.4);
+	/*color: rgba(0,0,0,0.4);*/
 }
 aside ul li.active{
 	background: #ecf2fc;
