@@ -198,4 +198,15 @@
 		lx_x1.onclick=function(){
 			alert1.style.display="none";
 		}
+		let lx_xy=document.querySelectorAll(".lx_footer button");
+		console.log(lx_xy);
+		lx_xy.forEach(function(e){
+			e.onclick=function(){
+				lx_xy.forEach(function(element){
+					element.classList.remove("ass");
+
+				})
+				e.classList.add("ass");
+			}
+		})
 	</script>
