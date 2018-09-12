@@ -66,6 +66,7 @@ aside ul li{
 	border-bottom: 1px solid #f4f4f4;
 	line-height: 40px;
 	text-align: center;
+	border-right:2px solid #ecf2fc;
 }
 aside ul li a{
 	font-family: "PingFang Bold";
@@ -118,7 +119,7 @@ aside ul li.active a{
 }
 .lx_box1 .lx_form{
 	width: 100%;
-	height: 462px;
+	/* height: 462px; */
 	background:#fff;
 	border-radius: 10px;
 	padding: 22px 28px 0 28px;
@@ -235,6 +236,7 @@ dl dd button{
 	font-size: 14px;
 	color:#fff;
 	font-weight: bold;
+	cursor: pointer;
 }
 dl dd .lx_shanchu{
 	background:#f9f9f9;
@@ -377,6 +379,7 @@ dl dd .lx_xiugai{
 	width: 83px;
 	height: 30px;
 }
+
 .lx_section .lx_name textarea{
 	width: 248px;
 	height: 65px;
@@ -409,4 +412,31 @@ button.lx_hel{
 	margin-left: 30px;;
 	margin-top: 22px;
 	background: #f1f1f1;
+	cursor: pointer;
+}
+select{
+	width: 248px;
+	height: 30px;
+	outline: none;
+	border: none;
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	/* margin-left: 10px; */
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.3);
+	font-weight: 500;
+	padding-left: 10px;
+}
+select option{
+	width: 248px;
+	height: 30px;
+	outline: none;
+	border: none;
+	border: 1px solid #f4f4f4;
+	border-radius: 4px;
+	/* margin-left: 10px; */
+	font-size: 14px;
+	color:rgba(0, 0, 0, 0.3);
+	font-weight: 500;
+	padding-left: 10px;
 }

@@ -132,20 +132,33 @@
 				</div>
 				<div class="lx_name name1">
 						<h5 class="lx_fenlei">一级分类</h5>
-						<input type="text" placeholder="实验手册">
-						<img src="img/lx_1.png" alt="">
+						<!-- <input type="text" placeholder="实验手册"> -->
+						<select name="" id="">
+							<option value="">实验手册</option>
+							<option value="">基本操作</option>
+							<option value="">大数据实验数据一体基本</option>
+						</select>
+						<!-- <img src="img/lx_1.png" alt=""> -->
 				</div>
 				<div class="lx_name name1">
 						<h5 class="lx_fenlei">二级分类</h5>
-						<input type="text" placeholder="基本操作">
-						<img src="img/lx_1.png" alt="">
+						<select name="" id="">
+								<option value="">基本操作</option>
+								<option value="">实验手册</option>
+								<option value="">大数据实验数据一体基本</option>
+						</select>
+						<!-- <img src="img/lx_1.png" alt=""> -->
 				</div>
 				<div class="lx_name name1">
 						<h5 class="lx_fenlei">三级分类</h5>
-						<input type="text" placeholder="大数据实验数据一体基本">
-						<img src="img/lx_1.png" alt="">
+						<select name="" id="">
+								<option value="">大数据实验数据一体基本</option>
+								<option value="">基本操作</option>
+								<option value="">实验手册</option>
+						</select>
+						<!-- <img src="img/lx_1.png" alt=""> -->
 				</div>
-				<button class="lx_hel">添加</button>
+				<button class="lx_hel lx_tianjia">添加</button>
 			</div>
 			<div class="lx_section">
 					<h4>资料修改<img class="lx_x" src="img/lx_2.png" alt=""> </h4>
@@ -160,18 +173,33 @@
 					</div>
 					<div class="lx_name name1">
 							<h5 class="lx_fenlei">一级分类</h5>
-							<input type="text" placeholder="实验手册">
-							<img src="img/lx_1.png" alt="">
+							<!-- <input type="text" placeholder="实验手册">
+							<img src="img/lx_1.png" alt=""> -->
+							<select name="" id="">
+									<option value="">实验手册</option>
+									<option value="">基本操作</option>
+									<option value="">大数据实验数据一体基本</option>
+							</select>
 					</div>
 					<div class="lx_name name1">
 							<h5 class="lx_fenlei">二级分类</h5>
-							<input type="text" placeholder="基本操作">
-							<img src="img/lx_1.png" alt="">
+							<!-- <input type="text" placeholder="基本操作">
+							<img src="img/lx_1.png" alt=""> -->
+							<select name="" id="">
+									<option value="">实验手册</option>
+									<option value="">基本操作</option>
+									<option value="">大数据实验数据一体基本</option>
+							</select>
 					</div>
 					<div class="lx_name name1">
 							<h5 class="lx_fenlei">三级分类</h5>
-							<input type="text" placeholder="大数据实验数据一体基本">
-							<img src="img/lx_1.png" alt="">
+							<!-- <input type="text" placeholder="大数据实验数据一体基本">
+							<img src="img/lx_1.png" alt=""> -->
+							<select name="" id="">
+									<option value="">实验手册</option>
+									<option value="">基本操作</option>
+									<option value="">大数据实验数据一体基本</option>
+							</select>
 					</div>
 					<button class="lx_hel">修改</button>
 				</div>
@@ -207,6 +235,43 @@
 
 				})
 				e.classList.add("ass");
+			}
+		})
+		let lx_tianjia1=document.querySelector(".lx_section .lx_hel.lx_tianjia ");
+		let lx_sahnchu1=document.querySelectorAll("dl dd .lx_shanchu ");
+		let lx_table=document.querySelector(".lx_table ");
+		
+		console.log(lx_tianjia1,lx_sahnchu1,lx_table);
+
+		// lx_tianjia1.onclick=finction(){
+		// 	creatTr();
+		// }
+		function creatTr(){
+			lx_table.innerHTML+=`<dl>
+							<dd>实验一  基本操作实验</dd>
+							<dd>熟悉大数据实验一体机并了解如何搭建集群</dd>
+							<dd>实验手册</dd>
+							<dd>
+								<button class="lx_xiazai">下载</button>
+							</dd>
+							<dd>
+								<button class="lx_shanchu">删除</button>
+								<button class="lx_xiugai">修改</button>
+							</dd>
+						</dl>`;
+		}
+		lx_tianjia1.onclick=function(){
+			creatTr();
+			alert.style.display="none";
+		}
+
+		lx_sahnchu1.forEach(function(e){
+			e.onclick=function(){
+				
+				let ele=e.parentNode.parentNode;
+				console.log(ele);
+				lx_table.removeChild(ele);
+				
 			}
 		})
 	</script>
