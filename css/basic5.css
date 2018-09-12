@@ -104,19 +104,32 @@ aside ul li.active a{
 }
 .lx_box2{
 	width: 100%;
-	height: 53px;
+	/* height: 53px; */
 	background: #fff;
-	display: flex;
-	
+	position: fixed;
+	right:0;
+	bottom: 0;
+	width: 100%;
+    height: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: #c5c5c5;
+    font-family: "PingFang Bold";
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* left: 0; */
 }
-.lx_box2 h5{
+/* .lx_box2 h5{
 	margin:  auto;
 	font-size: 12px;
 	font-family: "PingFang Bold";
 	text-align: center;
 	font-weight: bold;
 	color: rgba(0, 0, 0, 0.4);
-}
+	line-height: 53px;
+} */
 .lx_box1 .lx_form{
 	width: 100%;
 	/* height: 462px; */
