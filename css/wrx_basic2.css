@@ -71,6 +71,7 @@ aside{
 aside ul li{
 	height: 40px;
 	border-bottom: 1px solid #f4f4f4;
+	border-right: 1px solid white;
 	line-height: 40px;
 	text-align: center;
 }
@@ -136,11 +137,12 @@ main .left ul li{
 	width: 100%;
 	height: 39.5px;
 	border-bottom: 1px solid #ececec;
-	text-align: center;
+	text-align: left;
 	line-height: 39.5px;
 	background: #ffffff;
 	color: rgba(0,0,0,0.5);
 	cursor: pointer;
+	padding-left: 15px;
 }
 main .left ul li:nth-child(21){
 	border:none;
@@ -216,7 +218,7 @@ footer{
 	position: fixed;
 	left: 0;
 	bottom: 0;
-	color: rgba(0,0,0,0.4);
+	color: #c5c5c5;
 }
 main .left ul li:nth-child(6){
 	position: relative;
@@ -237,11 +239,16 @@ main .left ul li:nth-child(6) .tanchu .more{
 	width: 100%;
 	height: 40px;
 	border-bottom: 1px solid #ececec;
+	padding-left: 15px;
 }
 main .left ul li:nth-child(6) .tanchu .more.hot{
 	color: #4381e6;
 }
 main .left ul li.hot{
 	color: #4381e6;
+}
+.icon-xiaotuziCduan_{
+	margin-left: 15px;
+	display: none;
 }
 /*aside   end*/

@@ -1,4 +1,5 @@
 window.onload=function () {
+    let icon=document.querySelector(".icon-xiaotuziCduan_");
     let li=document.querySelector("main .left ul li:nth-child(6)");
     let tanchu=document.querySelector("main .left ul li:nth-child(6) .tanchu");
     let more=document.querySelectorAll("main .left ul li:nth-child(6) .tanchu .more");
@@ -7,10 +8,13 @@ window.onload=function () {
     li.onclick=function(){
         if(tanchu.style.display!="none"){
             tanchu.style.display="none";
+            icon.style.display="none";
         }else if(tanchu.style.display=="none"){
             tanchu.style.display="block";
+            icon.style.display="inline-block";
         }
         li.classList.toggle("hot");
+
     }
     for(let i=0;i<more.length;i++){
         more[i].onclick=function () {
