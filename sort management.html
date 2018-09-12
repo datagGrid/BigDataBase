@@ -6,6 +6,7 @@
 		<link rel="stylesheet" href="css/basic.css" />
 		<link rel="stylesheet" type="text/css" href="css/sort%20management.css"/>
 		<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_829163_jvgvnntqg5.css"/>
+		<link rel="stylesheet" href="css/sort management.css">
 	</head>
 	<body>
 		<!--header start-->
@@ -26,12 +27,12 @@
 		<!--aside start-->
 			<aside>
 				<ul>
-					<li><a href="cluster.html">集群管理</a></li>
-					<li><a href="lx_index5.html">学习资料</a></li>
-					<li class="active"><a href="sort management.html">分类管理</a></li>
-					<li><a href="wrx.html">账户管理</a></li>
-					<li><a href="资源管理.html">资源管理</a></li>
-					<li><a href="订单管理.html">购买记录</a></li>
+					<li><a href="">集群管理</a></li>
+					<li><a href="">学习资料</a></li>
+					<li class="active"><a href="">分类管理</a></li>
+					<li><a href="">账户管理</a></li>
+					<li><a href="">资源管理</a></li>
+					<li><a href="">购买记录</a></li>
 				</ul>
 			</aside>
 		<!--aside start-->
@@ -52,11 +53,11 @@
 				<div class="WJ_three">
 					<table cellspacing="1">
 						<tr>
-							<td>序号</td>
-							<td>名称</td>
-							<td>介绍</td>
-							<td>父类别</td>
-							<td>操作</td>
+							<th>序号</th>
+							<th>名称</th>
+							<th>介绍</th>
+							<th>父类别</th>
+							<th>操作</th>
 						</tr>
 						<tr>
 							<td>1</td>
@@ -64,7 +65,7 @@
 							<td>熟悉大数据实验一体机并了解如何搭建集群熟悉基本</td>
 							<td>实验手册</td>
 							<td>
-								<button>删除</button>
+								<button class="shan">删除</button>
 								<button class="WJ_revise">修改</button>
 							</td>
 						</tr>
@@ -74,7 +75,7 @@
 							<td>熟悉大数据实验一体机并了解如何搭建集群熟悉基本</td>
 							<td>教材配套PPT</td>
 							<td>
-								<button>删除</button>
+								<button class="shan">删除</button>
 								<button class="WJ_revise">修改</button>
 							</td>
 						</tr>
@@ -84,7 +85,7 @@
 							<td>熟悉大数据实验一体机并了解如何搭建集群熟悉基本</td>
 							<td>教材配套PPT</td>
 							<td>
-								<button>删除</button>
+								<button class="shan">删除</button>
 								<button class="WJ_revise">修改</button>
 							</td>
 						</tr>
@@ -190,16 +191,16 @@
 			<input type="checkbox" checked="checked">二级
 			<input type="checkbox" checked="checked">三级
 		</li>
-			<li>
+			<li >
 				<span>一级分类</span>
 				<select class="choice">
-					<option value="volvo">实验手册</option>
+					<option value="volvo" class="li44">实验手册</option>
 				</select>
 			</li>
 			<li>
 				<span>二级分类</span>
 				<select class="choice">
-					<option value="volvo">基本操作</option>
+					<option value="volvo"  class="li44">基本操作</option>
 				</select>
 			</li>
 			<li>
@@ -213,3 +214,102 @@
 		</div>
 	</body>
 </html>
+<script>
+	let add=document.querySelector("main .WJ_box .WJ_two .WJ_add");
+    let dianji=document.querySelector(".WJ_popup li button");
+    let gou=document.querySelector(".WJ_popup li input:nth-child(3)");
+    let gou1=document.querySelector(".WJ_twop li input:nth-child(4)");
+    let gou2=document.querySelector(".WJ_threep li input:nth-child(4)");
+    let gou3=document.querySelector(".WJ_twop li input:nth-child(4)");
+    let gou4=document.querySelector(".WJ_twop li input:nth-child(3)");
+    let gou5=document.querySelector(".WJ_popup li input:nth-child(3)");
+    console.log(gou5);
+    let hezi1=document.querySelector(".WJ_popup");
+    let hezi2=document.querySelector(".WJ_twop");
+    let hezi3=document.querySelector(".WJ_threep");
+    let close=document.querySelector(".WJ_popup .WJ_error");
+    let close1=document.querySelector(".WJ_twop .WJ_error");
+    let close2=document.querySelector(".WJ_threep .WJ_error");
+    let add1=document.querySelector(".WJ_threep li button");
+    let table=document.querySelector("tbody");
+    let one=document.querySelectorAll(".WJ_threep .li44");
+    let two=document.querySelector(".WJ_threep .nam");
+    let shan=document.querySelectorAll(".shan");
+    console.log(shan);
+    let ones=one[0].innerText;
+    let twos=one[1].innerText;
+    let three="";
+    two.onblur=function(){
+        let three=two.value;
+        add1.onclick=function(){
+            let str=`<tr>
+        <td>1</td>
+        <td>实验一 基本操作实验</td>
+        <td>${three}</td>
+        <td>实验手册</td>
+        <td>
+        <button class="shan">删除</button>
+        <button class="WJ_revise">修改</button>
+            </td>
+            </tr>`
+            table.innerHTML+=str;
+            hezi3.style.display="none";
+            hezi2.style.display="none";
+            hezi1.style.display="none";
+        };
+    };
+    table.onclick=function(e){
+        let ele=e.target;
+        if(ele.className=="shan"){
+            table.removeChild(ele.parentNode.parentNode)
+		}
+	}
+
+
+    // console.log(two);
+    // console.log(hezi2);
+    add.onclick=function () {
+		hezi1.style.display="block";
+
+    }
+    gou.onclick=function () {
+        if(gou.checked==true){
+            hezi2.style.display="block";
+            hezi1.style.display="none";
+            gou5.checked=false;
+        }
+    }
+    gou1.onclick=function () {
+        if(gou1.checked==true){
+            hezi3.style.display="block";
+            hezi2.style.display="none";
+            hezi1.style.display="none";
+            gou3.checked=false;
+        }
+    }
+    gou4.onclick=function () {
+        if(gou2.checked==false){
+            hezi3.style.display="none";
+            hezi2.style.display="none";
+        }
+    }
+    gou2.onclick=function () {
+        if(gou2.checked==false){
+            hezi3.style.display="none";
+            hezi2.style.display="block";
+            hezi1.style.display="block";
+        }
+    }
+    close.onclick=function () {
+		hezi1.style.display="none"
+    }
+    close1.onclick=function () {
+        hezi2.style.display="none";
+        hezi1.style.display="none";
+    }
+    close2.onclick=function () {
+        hezi3.style.display="none";
+        hezi2.style.display="none";
+        hezi1.style.display="none";
+    }
+</script>

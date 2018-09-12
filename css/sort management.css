@@ -65,12 +65,13 @@ aside ul li{
 	border-bottom: 1px solid #f4f4f4;
 	line-height: 40px;
 	text-align: center;
+	border-right: 2px solid #fff;
 }
 aside ul li a{
 	font-family: "PingFang Bold";
 	font-size: 14px;
-	/*opacity: 0.4;*/
-	/*color: rgba(0,0,0,0.4);*/
+	opacity: 0.4;
+	color: #000;
 }
 aside ul li.active{
 	background: #ecf2fc;
@@ -184,6 +185,14 @@ main .WJ_box .WJ_three table td:nth-child(4){
 main .WJ_box .WJ_three table td:nth-child(5){
 	width: 255px;
 }
+main .WJ_box .WJ_three table th{
+	border: 1px solid #f4f4f4;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;
+	color: rgba(0,0,0,0.4);
+	font-size: 14px;
+}
 main .WJ_box .WJ_three table td{
 	border: 1px solid #f4f4f4;
 	height: 64px;
@@ -207,6 +216,9 @@ main .WJ_box .WJ_three table td button{
 main .WJ_box .WJ_three table td button.WJ_revise{
 	background: #4381e6;
 	color: #fff;
+}
+main .WJ_box .WJ_three table td button.WJ_revise:hover{
+	box-shadow: 0 0 15px -2px #4381e6;
 }
 main .WJ_box .WJ_more{
 	display: flex;
@@ -316,6 +328,7 @@ footer{
 	position: absolute;
 	top: 22px;
 	right: 17px;
+	cursor: pointer;
 }
 /*.WJ_classify end*/
 /*WJ_popup start*/
@@ -384,12 +397,13 @@ footer{
 	border: none;
 	background: #f1f1f1;
 	color: rgba(0,0,0,0.5);
-
+	outline: none;
 }
 .WJ_popup .WJ_error{
 	position: absolute;
 	top: 22px;
 	right: 17px;
+	cursor: pointer;
 }
 /*WJ_popup end*/
 .WJ_twop{
@@ -477,12 +491,13 @@ footer{
 	border: none;
 	background: #f1f1f1;
 	color: rgba(0,0,0,0.5);
-
+	outline: none;
 }
 .WJ_twop .WJ_error{
 	position: absolute;
 	top: 22px;
 	right: 17px;
+	cursor: pointer;
 }
 .WJ_threep{
 	position: absolute;
@@ -548,7 +563,7 @@ footer{
 	border: none;
 	background: #f1f1f1;
 	color: rgba(0,0,0,0.5);
-
+	outline: none;
 }
 .WJ_threep li input.nam{
 	width: 248px;
@@ -566,4 +581,5 @@ footer{
 	position: absolute;
 	top: 22px;
 	right: 17px;
+	cursor: pointer;
 }
