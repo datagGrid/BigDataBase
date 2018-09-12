@@ -9,7 +9,7 @@ window.onload=function () {
         document.body.style.overflow="hidden";
     }
     bt1.onclick=function () {
-        window.open("http://localhost:63342/%E7%AC%AC%E5%85%AD%E5%91%A8/UEK_Pro/destroy.html?_ijt=3ibglu8a86g3olb2nnpvueecns");
+        window.open("destroy.html");
     }
     bt2.onclick=function () {
         black.style.display="none";
