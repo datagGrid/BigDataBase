@@ -38,7 +38,7 @@ main{
 }
 .yhf_node_num span{
     font-size: 14px;
-    color: #000;
+    color: rgba(0,0,0,0.4);
 }
 .yhf_node_num h2{
     font-size: 26px;
@@ -56,6 +56,12 @@ main{
     font-size: 14px;
     line-height: 28px;
     padding:0 10px;
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
+}
+.yhf_node_passw span{
+    font-size: 14px;
+    color: rgba(0,0,0,0.4);
 }
 .yhf_node button{
     width: 82px;
@@ -80,7 +86,7 @@ main{
     padding-top: 15px;
 }
 .yhf_master .master{
-    width: 378px;
+    width: 370px;
     height: 90px;
     margin-right: 13px;
     margin-bottom: 13px;
@@ -128,7 +134,7 @@ main{
     background: linear-gradient(to right,#827dfd,#ee81ea);
 }
 .yhf_map{
-    width: 767px;
+    width: 753px;
     height: 239px;
     border-radius: 4px;
     background: #fff;
@@ -147,7 +153,7 @@ main{
 .yhf_map .map_text .test{
     width: 80px;
     height: 16px;
-    color: #000;
+    color: rgba(0,0,0,0.6);
     font-size: 14px;
     font-family: "PingFang Bold";
     padding:0 5px;
@@ -156,7 +162,7 @@ main{
 }
 .yhf_map .map_text .notes{
     font-size: 14px;
-    color: #c5c5c5;
+    color: rgba(0,0,0,0.4);
 }
 .bottom{
     width: 100%;
@@ -167,6 +173,9 @@ main{
     font-size: 14px;
     color: #c5c5c5;
     font-family: "PingFang Bold";
+    position: fixed;
+    bottom:0;
+    left:0;
     /*margin-top: 200px;*/
 
 }
