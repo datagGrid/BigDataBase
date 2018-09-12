@@ -10,6 +10,8 @@ window.onload=function () {
     }
     bt1.onclick=function () {
         window.open("destroy.html");
+        black.style.display="none";
+        document.body.style.overflow="auto";
     }
     bt2.onclick=function () {
         black.style.display="none";
