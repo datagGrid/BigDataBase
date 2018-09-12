@@ -58,6 +58,9 @@ aside{
 	width: 180px;
 	height: 768px;
 	box-shadow: 0 4px 12px 2px #e7eaef;
+	/*position: fixed;*/
+	/*top: 60px;*/
+	/*left: 0;*/
 }
 aside ul li{
 	height: 40px;

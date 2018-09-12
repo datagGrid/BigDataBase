@@ -17,7 +17,7 @@ main{
 .yhf_right{
     width: calc(100% - 180px);
     padding:15px 15px 0 15px;
-    /*margin-bottom: 200px;*/
+    /*margin-left: 180px;*/
 }
 .yhf_node{
     width: 100%;
