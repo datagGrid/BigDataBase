@@ -64,6 +64,7 @@ aside ul li{
 	border-bottom: 1px solid #f4f4f4;
 	line-height: 40px;
 	text-align: center;
+	border-right: 2px solid #fff;
 }
 aside ul li a{
 	font-family: "PingFang Bold";
