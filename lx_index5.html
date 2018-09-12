@@ -263,6 +263,16 @@
 		lx_tianjia1.onclick=function(){
 			creatTr();
 			alert.style.display="none";
+			let lx_sahnchu1=document.querySelectorAll("dl dd .lx_shanchu ");
+			lx_sahnchu1.forEach(function(e){
+			e.onclick=function(){
+				
+				let ele=e.parentNode.parentNode;
+				console.log(ele);
+				lx_table.removeChild(ele);
+				
+			}
+		})
 		}
 
 		lx_sahnchu1.forEach(function(e){
