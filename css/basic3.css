@@ -1,7 +1,7 @@
 ﻿body{
 	background: #fff;
 	width: 100%;
-	height: 1157px;
+	/*height: 1157px;*/
 }
 *{
 	list-style: none;
@@ -63,7 +63,7 @@ header h2{
 .hcl_boxs aside{
 	background: #fff;
 	width: 180px;
-	height: 100%;
+	height: 768px;
 	/* box-shadow: 0 4px 12px 2px #e7eaef; */
 	/* position: relative; */
 }
@@ -72,6 +72,7 @@ aside ul{
 }
 aside ul li{
 	height: 40px;
+	border-right: 2px solid #fff;
 	border-bottom: 1px solid #f4f4f4;
 	line-height: 40px;
 	text-align: center;
@@ -93,7 +94,6 @@ aside ul li.active a{
 }
 .hcl_boxs{
 	background: #e7eaef;
-	height: 1000px;
 }
 .hcl_box{
 	width: calc(100% - 195px - 15px);
@@ -126,6 +126,17 @@ aside ul li.active a{
 	position: relative;
 	display: flex;
 	flex-direction: row;
+}
+.hcl_box .hcl_fuwu .hcl_pp{
+	width: 112px;
+	height: 30px;
+	border-radius: 4px;
+	position: absolute;
+	top:15px;
+	right: 30px;
+	background: #4381e6;
+	text-align: center;
+	line-height: 30px;
 }
 .hcl_box .hcl_fuwu p{
 	margin-left: 3%;
@@ -197,17 +208,23 @@ aside ul li.active a{
 	box-sizing: border-box;
 }
 .hcl_boxs aside .hcl_boxtw .hcl_boxtwq ul li{
+	/*cursor: pointer;*/
 	/* display: block; */
 	width: 100%;
 	height: 56px;
 	background: white;
 	border-right: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
+	font-weight: normal;
 	line-height: 58px;
 	color: #999999;
 }
+.hcl_boxs aside .hcl_boxtw .hcl_boxtwq ul .hcl_del{
+    display: flex;
+	justify-content: center;
+}
 .hcl_boxs aside .hcl_boxtw .hcl_boxtwq ul li:nth-child(1){
-	font-weight: bold;
+	/*font-weight: bold;*/
 	color: #b2b2b2;
 }
 
@@ -242,11 +259,12 @@ aside ul li.active a{
 	height: 56px;
 }
 .hcl_boxs aside .hcl_boxtw .hcl_boxtwq .hcl_t{
+	cursor: pointer;
 	width: 60px;
 	height: 30px;
 	border-radius: 4px;
 	background: #4381e6;
-	margin-left: 20px;
+	/*margin-left: 8px;*/
 	margin-top: 13px;
 	text-align: center;
 	line-height: 30px;
@@ -339,22 +357,91 @@ button{
 
 .hcl_boxs .hcl_boxes{
 	width: calc(100% - 195px - 15px);
+	display: flex;
+	flex-direction: row;
 	/*height: 282px;*/
 	position: absolute;
 	top: 15px;
 	left: 195px;
 }
-
+.hcl_boxs .hcl_boxes .hcl_bnm{
+	margin-top: 28px;
+	margin-left: 40px;
+}
 .hcl_boxs .hcl_boxes img{
+	width: 100%;
+	border-radius: 4px;
+	height: 374px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxtwo{
 	width: 49.7%;
 	border-radius: 4px;
+	height: 410px;
+	position: relative;
+}
+.hcl_boxs .hcl_boxes .hcl_boxtwo p{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	top: 26px;
+	left: 42px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxthere{
+	width: 49.7%;
+	border-radius: 4px;
+	height: 410px;
+	margin-left: 15px;
+	position: relative;
+}
+.hcl_boxs .hcl_boxes .hcl_boxthere p{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	top: 26px;
+	left: 42px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxthere .hcl_had{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	right: 60px;
+	bottom:136px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxthere .hcl_spark{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	right: 76px;
+	bottom: 104px;
+}
+
+.hcl_boxs .hcl_boxes .hcl_boxthere .hcl_storm{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	right: 73px;
+	bottom: 74px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxtwo .hcl_xue{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	right: 60px;
+	bottom: 108px;
+}
+.hcl_boxs .hcl_boxes .hcl_boxtwo .hcl_jiao{
+	font-size: 14px;
+	color: #ababab;
+	position: absolute;
+	right: 60px;
+	bottom: 75px;
 }
 .hcl_boxs .hcl_long{
 	width: calc(100% - 195px - 15px);
 	height: 340px;
 	position: absolute;
 	left: 195px;
-	top: 338px;
+	top: 402px;
 	background: white;
 	border-radius: 4px;
 }
@@ -391,10 +478,14 @@ button{
 .hcl_boxs .hcl_long .hcl_table .qa{
 	height: 57px;
 	background: white;
+	color: #b8b8b8;
 	border-right: 1px solid #f4f4f4;
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+}
+.hcl_boxs .hcl_long .hcl_table .qa:nth-child(1){
+	color: #adadad;
 }
 .hcl_boxs .hcl_long .hcl_table .wer{
 	width: 9%;
@@ -406,6 +497,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .ert{
 	width: 8.2%;
@@ -417,6 +509,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .rty{
 	width: 7%;
@@ -428,6 +521,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .tyu{
 	width: 16.42%;
@@ -439,6 +533,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .yui{
 	width: 16.76%;
@@ -450,6 +545,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .uio{
 	width: 10.28%;
@@ -461,6 +557,7 @@ button{
 	border-bottom: 1px solid #f4f4f4;
 	text-align: center;
 	line-height: 57px;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table .iop{
 	width: 13.65%;
@@ -473,11 +570,13 @@ button{
 	text-align: center;
 	line-height: 57px;
 	overflow: hidden;
+	color: #b8b8b8;
 }
 .hcl_boxs .hcl_long .hcl_table dl .ia p{
 	width: 84px;
 	height: 32px;
 	border-radius: 4px;
+	color: white;
 	background: #4381e6;
 	text-align: center;
 	line-height: 32px;
@@ -523,4 +622,16 @@ button{
 	background: #4381e6;
 	color: #fff;
 	border: 1px solid #4381e6;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	position: absolute;
+    top: 810px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(0,0,0,0.4);
+	font-size: 14px;
 }

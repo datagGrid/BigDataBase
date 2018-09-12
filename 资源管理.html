@@ -44,65 +44,77 @@
 					<li><a href="订单管理.html">购买记录</a></li>
 				</ul>
                 <div class="hcl_boxes">
-                	<img src="img/hcl_ziyuanguanli.png" alt="">
-                	<img src="img/hcl_ziyuan.png" alt="">
+					<div class="hcl_boxtwo">
+						<p>资源管理</p>
+						<div class="hcl_xue">学生</div>
+						<div class="hcl_jiao">教师</div>
+						<img src="img/hcl_tu1.png" alt="">
+					</div>
+                	<div class="hcl_boxthere">
+						<p>资源管理</p>
+						<div class="hcl_had">Hadoop</div>
+						<div class="hcl_spark">Spark</div>
+						<div class="hcl_storm">Storm</div>
+						<img src="img/hcl_tu2.png" alt="">
+					</div>
+
                 </div>
                 <div class="hcl_long">
                 	<div class="hcl_table">
                 		<dl class="">
                 			<dd class="oa"><input type="Checkbox"></dd>
-                			<dd class="oa"><input type="Checkbox"></dd>
+                			<dd class="oa hcl_inp"><input type="Checkbox"></dd>
                 			<dd class="oa"><input type="Checkbox"></dd>
                 			<dd class="oa"><input type="Checkbox"></dd>
                 		</dl>
                 		<dl class="qwe">
                 			<dd class="qa">登录名</dd>
-                			<dd class="qa">张晓明</dd>
-                			<dd class="qa">张晓明</dd>
-                			<dd class="qa">张晓明</dd>
+                			<dd class="qa hcl_inp">张晓明</dd>
+                			<dd class="qa hcl_lan">张晓明</dd>
+                			<dd class="qa hcl_xin">张晓明</dd>
                 		</dl>
                 		<dl class="wer">
                 			<dd class="wa">姓名</dd>
-                			<dd class="wa">张晓明</dd>
-                			<dd class="wa">张晓明</dd>
-                			<dd class="wa">张晓明</dd>
+                			<dd class="wa hcl_inp">张晓明</dd>
+                			<dd class="wa hcl_lan">张晓明</dd>
+                			<dd class="wa hcl_xin">张晓明</dd>
                 		</dl>
                 		<dl class="ert">
                 			<dd class="ea">学号</dd>
-                			<dd class="ea">12346578</dd>
-                			<dd class="ea">12346578</dd>
-                			<dd class="ea">12346578</dd>
+                			<dd class="ea hcl_inp">12346578</dd>
+                			<dd class="ea hcl_lan">12346578</dd>
+                			<dd class="ea hcl_xin">12346578</dd>
                 		</dl>
                 		<dl class="rty">
                 			<dd class="ra">性别</dd>
-                			<dd class="ra">男</dd>
-                			<dd class="ra">男</dd>
-                			<dd class="ra">男</dd>
+                			<dd class="ra hcl_inp">男</dd>
+                			<dd class="ra hcl_lan">男</dd>
+                			<dd class="ra hcl_xin">男</dd>
                 		</dl>
                 		<dl class="tyu">
                 			<dd class="ta">集群类型</dd>
-                			<dd class="ta">包换全部组建集群</dd>
-                			<dd class="ta">包换全部组建集群</dd>
-                			<dd class="ta">包换全部组建集群</dd>
+                			<dd class="ta hcl_inp">包换全部组建集群</dd>
+                			<dd class="ta hcl_lan">包换全部组建集群</dd>
+                			<dd class="ta hcl_xin">包换全部组建集群</dd>
                 		</dl>
 
                 		<dl class="yui">
                 			<dd class="ya">身份</dd>
-                			<dd class="ya">老师</dd>
-                			<dd class="ya">老师</dd>
-                			<dd class="ya">老师</dd>
+                			<dd class="ya hcl_inp">老师</dd>
+                			<dd class="ya hcl_lan">老师</dd>
+                			<dd class="ya hcl_xin">老师</dd>
                 		</dl>
                 		<dl class="uio">
                 			<dd class="ua">院校</dd>
-                			<dd class="ua">太原理工大学</dd>
-                			<dd class="ua">太原理工大学</dd>
-                			<dd class="ua">太原理工大学</dd>
+                			<dd class="ua hcl_inp">太原理工大学</dd>
+                			<dd class="ua hcl_lan">太原理工大学</dd>
+                			<dd class="ua hcl_xin">太原理工大学</dd>
                 		</dl>
                 		<dl class="iop">
                 			<dd class="ia">操作</dd>
-                			<dd class="ia"><p>销毁集群</p></dd>
-                			<dd class="ia"><p>销毁集群</p></dd>
-                			<dd class="ia"><p>销毁集群</p></dd>
+                			<dd class="ia del"><p>销毁集群</p></dd>
+                			<dd class="ia hcl_lan del"><p class="">销毁集群</p></dd>
+                			<dd class="ia hcl_xin del"><p class="">销毁集群</p></dd>
                 		</dl>
                 	</div>
 
@@ -119,9 +131,25 @@
 					</div>
 
                 </div>
-				<div class="hcl_foot1">c 2017-2018 http://sxuek.com山西优逸客科技有限公司版权所有</div>
 			</aside>
+				<footer>
+					c 2017-2018 http://sxuek.com山西优逸客科技有限公司版权所有
+				</footer>
+
 	    </div>
 		<!--aside start-->
 	</body>
 </html>
+<script>
+	let ox=document.querySelectorAll(".hcl_inp");
+	console.log(ox);
+	let del=document.querySelectorAll(".del");
+	   del[0].onclick=function () {
+	       // alert(1)
+           for(let i=0;i<ox.length;i++){
+               ox[i].style.display="none";
+
+		   }
+           del[0].style.display="none";
+       }
+</script>
