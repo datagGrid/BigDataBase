@@ -135,7 +135,7 @@ aside ul li.active a{
 	/*text-align: center;*/
 	/*line-height: 29px;*/
 }
-.left .sou{
+.left input{
 	width: 188px;
 	height: 29px;
 	/*background: red;*/
@@ -143,6 +143,7 @@ aside ul li.active a{
 	border: 1px solid #b3b3b3;
 	margin-left: 131px;
 	margin-top: -29px;
+	float: left;
 
 }
 .left .first{
@@ -156,6 +157,7 @@ aside ul li.active a{
 	font-size: 14px;
 	text-align: center;
 	line-height: 29px;
+	cursor: pointer;
 }
 .left .xin{
 	width: 111px;
@@ -168,6 +170,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	margin-left: 502px;
+	cursor: pointer;
 }
 .left .pi{
 	width: 111px;
@@ -180,6 +183,7 @@ aside ul li.active a{
 	line-height: 29px;
 	margin-top: -29px;
 	margin-left: 621px;
+	cursor: pointer;
 }
 .bottom{
 	width: calc(100% - 210px);
@@ -215,6 +219,7 @@ aside ul li.active a{
 	color: white;
 	margin-left: 1130px;
 	margin-top: -17px;
+	cursor: pointer;
 }
 .bottom .shua{
 	width: 82px;
@@ -227,6 +232,7 @@ aside ul li.active a{
 	margin-top: -29px;
 	margin-left: 1220px;
 	background: #25cb77;
+	cursor: pointer;
 }
 .bottom ul{
 	width: 1270px;
@@ -370,6 +376,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .one{
 	width: 29px;
@@ -382,6 +389,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: white;
+	cursor: pointer;
 }
 .bottom .two{
 	width: 29px;
@@ -394,6 +402,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .three {
 	width: 29px;
@@ -406,6 +415,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .four {
 	width: 29px;
@@ -418,6 +428,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .five {
 	width: 29px;
@@ -430,6 +441,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .six {
 	width: 29px;
@@ -442,6 +454,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .xia{
 	width: 97px;
@@ -455,6 +468,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .bottom .wei{
 	width: 81px;
@@ -468,6 +482,7 @@ aside ul li.active a{
 	text-align: center;
 	line-height: 29px;
 	color: #666666;
+	cursor: pointer;
 }
 .last{
 	width: calc(100% - 195px);
