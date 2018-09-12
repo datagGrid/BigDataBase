@@ -371,7 +371,7 @@ button{
 .hcl_boxs .hcl_boxes img{
 	width: 100%;
 	border-radius: 4px;
-	height: 374px;
+	height: 304px;
 }
 .hcl_boxs .hcl_boxes .hcl_boxtwo{
 	width: 49.7%;
@@ -404,37 +404,37 @@ button{
 	font-size: 14px;
 	color: #ababab;
 	position: absolute;
-	right: 60px;
-	bottom:136px;
+	right: 30px;
+	bottom:161px;
 }
 .hcl_boxs .hcl_boxes .hcl_boxthere .hcl_spark{
 	font-size: 14px;
 	color: #ababab;
 	position: absolute;
-	right: 76px;
-	bottom: 104px;
+	right: 46px;
+	bottom: 188px;
 }
 
 .hcl_boxs .hcl_boxes .hcl_boxthere .hcl_storm{
 	font-size: 14px;
 	color: #ababab;
 	position: absolute;
-	right: 73px;
-	bottom: 74px;
+	right: 40px;
+	bottom: 134px;
 }
 .hcl_boxs .hcl_boxes .hcl_boxtwo .hcl_xue{
 	font-size: 14px;
 	color: #ababab;
 	position: absolute;
-	right: 60px;
-	bottom: 108px;
+	right: 30px;
+	bottom: 162px;
 }
 .hcl_boxs .hcl_boxes .hcl_boxtwo .hcl_jiao{
 	font-size: 14px;
 	color: #ababab;
 	position: absolute;
-	right: 60px;
-	bottom: 75px;
+	right: 30px;
+	bottom: 138px;
 }
 .hcl_boxs .hcl_long{
 	width: calc(100% - 195px - 15px);
